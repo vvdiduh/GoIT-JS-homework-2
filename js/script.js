@@ -133,3 +133,41 @@
 // }
 
 // getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27])
+
+
+//////////////////////////////////////////////////////// task 29
+// function getEvenNumbers(start, end) {
+//     let numbers = [];
+    
+//     for (i = start; end >= i; i += 1) {
+//         numbers.push(i);
+//     }
+//     // console.log(numbers);
+//     let newArray = [];
+    
+//     for (const number of numbers) {
+//         if (number % 2 === 0) {
+//             newArray.push(number);
+//         }
+//     }
+
+//     // console.log(newArray);
+//     return newArray;
+//   }
+
+//   getEvenNumbers(2, 5)
+
+///////////////////////////////////// task 32
+
+function includes(array, value) {
+    for (const id of array) {
+        if (id === value) {
+            console.log('true'); 
+            break
+        }        
+        console.log('false'); 
+    }
+}
+
+
+includes([1, 2, 3, 4, 5], 3)
